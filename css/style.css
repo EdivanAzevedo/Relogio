@@ -44,3 +44,11 @@ body{
     letter-spacing: 3px;
 }
 
+.relogio span{
+    font-weight: bold;
+    font-size: 60px;
+}
+
+.relogio span.tempo{
+    font-size: 15px;
+}
