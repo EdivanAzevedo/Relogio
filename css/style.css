@@ -51,7 +51,7 @@ img {
     transition: all 0.5s ease;
 }
 
-.data:hover{
+.data:hover {
     background: rgba(5, 5, 5, 0.459);
     transition: opacity 0.5s ease-in;
 }
@@ -72,7 +72,7 @@ img {
 }
 
 .relogio div:hover {
-    background: rgba(5, 5, 5, 0.459); 
+    background: rgba(5, 5, 5, 0.459);
     transition: opacity 0.5s ease-in;
 }
 
