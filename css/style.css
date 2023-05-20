@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300;400;700&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: "Roboto Mono", Arial, Helvetica, sans-serif;
+}
+
+:root{
+    --preto: #1F2421;
+    --verde: #08A045;
+}
+
+body{
+    height: 100vh;
+    background: linear-gradient(120deg, #1F2421, #375e37);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
