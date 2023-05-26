@@ -18,7 +18,6 @@ const relogio = setInterval(function time() {
     if (min < 10) min = "0" + min;
     if (s < 10) s = "0" + s;
     if (day < 10) day = "0" + day;
-    if (year < 10) year = "0" + year;
 
     document.title = " Relógio Digital - " + hr + ":" + min + ":" + s;
 
