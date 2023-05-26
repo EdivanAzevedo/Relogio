@@ -11,7 +11,7 @@ const relogio = setInterval(function time() {
     let min = dateToday.getMinutes();
     let s = dateToday.getSeconds();
     let day = dateToday.getDate();
-    let month = dateToday.getMonth() + 1;
+    let month = dateToday.getMonth();
     let year = dateToday.getFullYear();
 
     if (hr < 10) hr = "0" + hr;
@@ -33,40 +33,40 @@ const relogio = setInterval(function time() {
 function getMonthString(month) {
     let monthString;
     switch (month) {
-        case 1:
+        case 0:
             monthString = "Janeiro";
             break;
-        case 2:
+        case 1:
             monthString = "Fevereiro";
             break;
-        case 3:
+        case 2:
             monthString = "Março";
             break;
-        case 4:
+        case 3:
             monthString = "Abril";
             break;
-        case 5:
+        case 4:
             monthString = "Maio";
             break;
-        case 6:
+        case 5:
             monthString = "Junho";
             break;
-        case 7:
+        case 6:
             monthString = "Julho";
             break;
-        case 8:
+        case 7:
             monthString = "Agosto";
             break;
-        case 9:
+        case 8:
             monthString = "Setembro";
             break;
-        case 10:
+        case 9:
             monthString = "Outubro";
             break;
-        case 11:
+        case 10:
             monthString = "Novembro";
             break;
-        case 12:
+        case 11:
             monthString = "Dezembro";
             break;
         default:
